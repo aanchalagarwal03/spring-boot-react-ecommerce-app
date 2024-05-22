@@ -12,7 +12,7 @@ WORKDIR /usr/src/app
 COPY ./client/package*.json ./
 
 #RUN npm install
-npm install -g npm
+run npm install -g npm
 
 # Bundle app source
 COPY . .
