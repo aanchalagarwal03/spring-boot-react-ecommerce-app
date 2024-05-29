@@ -12,7 +12,7 @@ import HomeMenuIcons from "./homeMenuIcons";
 import Hidden from "@material-ui/core/Hidden";
 import Spinner from "../../ui/spinner";
 import {HTTPError} from "../../ui/error/httpError";
-import {LOAD_HOME_PAGE} from "../../../actions/types";        m 
+import {LOAD_HOME_PAGE} from "../../../actions/types";        
 import {BadRequest} from "../../ui/error/badRequest";
 import {HOME_PAGE_DATA_API} from "../../../constants/api_routes";
 import {HOME_PAGE_API_OBJECT_LEN} from "../../../constants/constants"
