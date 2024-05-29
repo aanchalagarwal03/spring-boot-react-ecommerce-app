@@ -9,8 +9,8 @@ WORKDIR /usr/src/app
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
 # where available (npm@5+)
-# COPY ./client/package*.json ./
- COPY package*.json ./
+ COPY ./client/package*.json ./
+# COPY package*.json ./
 
 RUN npm install
 #run npm install -g npm
@@ -21,7 +21,7 @@ COPY . .
 #RUN yarn install
 
 #Aanchal change
-EXPOSE 3000
+EXPOSE 80
 
 # Initiate npm start
 CMD [ "npm", "run-script", "start_docker_dev" ]
